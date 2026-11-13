@@ -4,8 +4,18 @@ AI-powered ATS resume analyzer. Sign up, paste or upload a resume with a job des
 
 **Tech stack:** React 18 · Redux Toolkit · esbuild · Node.js · Express · **PostgreSQL** (`pg`) · Google Gemini API · Cloudinary · JWT auth · bcrypt · Helmet + rate limiting
 
-> Based on a college workshop project. Extended by me with: PostgreSQL database layer (parameterised SQL, auto-created schema, UUID keys), startup environment validation, health-check endpoint. _(add your own features here)_
+**Built by:** Rahul Roy · [GitHub](https://github.com/Rahullroy) 
 
+## Screenshots
+![Home page](screenshots/home.png)
+![Analysis result](screenshots/result.png)
+![Dashboard](screenshots/dashboard.png)
+
+> Based on a college workshop project. Extended by me with: PostgreSQL database layer (parameterised SQL, auto-created schema, UUID keys), startup environment validation, health-check endpoint.
+> Built during a college workshop and extended by me with:
+> - Migrated the database from MongoDB to **PostgreSQL** (SQL schema, parameterised queries, UUID keys)
+> - Startup checks for environment variables and a `/api/health` endpoint
+> - Fixed Cloudinary config loading and secured all API keys in `.env`
 ---
 
 ## 1. What you need to install (one time)
