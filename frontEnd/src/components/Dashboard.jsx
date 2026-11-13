@@ -15,8 +15,12 @@ export default function Dashboard({ user, setUser, activeTab, setActiveTab, resu
       <aside className="sidebar">
         <div className="sidebar-top">
           <div className="brand">
-            <span className="brand-mark">R</span> resumely
-          </div>
+                <span className="brand-mark">V</span>
+                <span className="brand-text">
+                    <span className="brand-name">VELqora</span>
+                    <small className="brand-sub">ResumeATS</small>
+                </span>
+         </div>
           <nav>
             <button
               type="button"

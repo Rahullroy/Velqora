@@ -12,7 +12,13 @@ export default function AuthScreen({ authMode, setAuthMode, name, setName, email
   return (
     <main className="auth-shell">
       <section className="auth-art">
-        <div className="brand"><span className="brand-mark">R</span> resumely</div>
+        <div className="brand">
+          <span className="brand-mark">V</span>
+          <span className="brand-text">
+              <span className="brand-name">VELqora</span>
+              <small className="brand-sub">ResumeATS</small>
+          </span>
+        </div>
         <div className="art-copy">
           <p className="eyebrow">CAREER CLARITY, EDITED</p>
           <h1>Your next role starts with a sharper story.</h1>
@@ -29,7 +35,13 @@ export default function AuthScreen({ authMode, setAuthMode, name, setName, email
 
       <section className="auth-panel">
         <div className="auth-inner">
-          <div className="mobile-brand brand"><span className="brand-mark">R</span> resumely</div>
+        <div className="brand">
+          <span className="brand-mark">V</span>
+          <span className="brand-text">
+              <span className="brand-name">VELqora</span>
+              <small className="brand-sub">ResumeATS</small>
+          </span>
+        </div> 
           <div className="auth-heading">
             <p className="eyebrow">WELCOME IN</p>
             <h2>{signup ? 'Build your edge.' : 'Welcome back.'}</h2>
